@@ -1,0 +1,43 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+@{
+	Layout = null;
+}
+
+<html>
+    <head>
+        <title>Diviso: @Model.Name</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-witdh, initial-scale=1, user-scalable=no"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/Master.css"/>
+    </head>
+    <header>
+        @*Logo i toppen.*@
+        <div class="header-logo">
+            <img src="https://localhost:44371/media/fejmo0xf/diviso-logo-blue-big-solid-notext.png"/>
+        </div>
+        @*Navigation: Getting it from a Partial Views document.*@
+        <div class="navline">
+            @await Html.PartialAsync("Navigation")
+        </div>
+    </header>
+    @RenderBody()
+    <footer>
+        <div class="row">
+            @*Venstre colone i footeren.*@
+            <div class="left-col">    
+                <h5 class="footer-text">Diviso ApS</h5>
+                <p class="footer-text">Agerlandsvej 10</p>
+                <p class="footer-text">8800 Viborg</p>
+                <p class="footer-text">+45 87 25 00 87</p>    
+            </div>
+            @*Højre colone i footeren.*@
+            <div class="right-col">
+                <div class="footer-logo">
+                    <img class="logo" src="https://localhost:44371/media/vlhldp4v/diviso-logo-blue-vertical-solid-withtext.png"/>
+                </div>
+            </div>
+        </div>
+    </footer>
+</html>
