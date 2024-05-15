@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\stin7136\\source\\repos\\Diviso_Umbraco\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A0CB11C5-3826-46E0-9865-58531C600268}|Diviso_Umbraco\\Diviso_Umbraco.csproj|c:\\users\\stin7136\\source\\repos\\diviso_umbraco\\diviso_umbraco\\views\\master.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A0CB11C5-3826-46E0-9865-58531C600268}|Diviso_Umbraco\\Diviso_Umbraco.csproj|solutionrelative:diviso_umbraco\\views\\master.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Master.cshtml",
+              "DocumentMoniker": "C:\\Users\\stin7136\\source\\repos\\Diviso_Umbraco\\Diviso_Umbraco\\Views\\Master.cshtml",
+              "RelativeDocumentMoniker": "Diviso_Umbraco\\Views\\Master.cshtml",
+              "ToolTip": "C:\\Users\\stin7136\\source\\repos\\Diviso_Umbraco\\Diviso_Umbraco\\Views\\Master.cshtml",
+              "RelativeToolTip": "Diviso_Umbraco\\Views\\Master.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-06T08:43:28.447Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
